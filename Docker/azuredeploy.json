@@ -30,7 +30,7 @@
             "metadata": {
                 "description": "Edgenode prefix"
             },
-            "defaultValue": "new"
+            "defaultValue": "doc"
         }
     },
     "variables": {
@@ -43,7 +43,7 @@
         "apiVersion": "[variables('clusterApiVersion')]",
         "comments" : "The script below is a copy of the script in the Iaas-Applications github repository",
         "properties": {
-            "marketPlaceIdentifier": "EmptyNode",
+            "marketPlaceIdentifier": "Docker",
             "computeProfile": {
                 "roles": [{
                     "name": "edgenode",
@@ -55,7 +55,7 @@
             },
             "installScriptActions": [{
                 "name": "[concat('emptynode','-' ,uniquestring(variables('applicationName')))]",
-                "uri": "http://hdiconfigactions.blob.core.windows.net/emptyedgenodev01/EmptyNodeSetup.sh",
+                "uri": "https://raw.githubusercontent.com/etherge/Iaas-Applications/master/Docker/scripts/DockerSetup.sh",
                 "roles": ["edgenode"]
             }],
             "uninstallScriptActions": [],
