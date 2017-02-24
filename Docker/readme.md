@@ -1,7 +1,7 @@
 # Add a new empty edge node the the cluster
 
 This template helps to add a docker edgenode to the cluster <br>
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2raw.githubusercontent.com%2etherge%2Iaas-Applications%2master%2Docker%2azuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fetherge%2FIaas-Applications%2Fmaster%2FDocker%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
